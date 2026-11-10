@@ -4,6 +4,8 @@
 
 <h1 align="center">Parad0x Labs</h1>
 
+<p align="center"><img src="assets/tagline.svg" alt="Local-first AI agents. Your machine, your keys. Open source, MIT." width="560" /></p>
+
 <p align="center"><strong>Open-source tools that keep your software, your AI and your money under your own control.</strong></p>
 
 <p align="center">
@@ -24,20 +26,30 @@
 - **Updates itself.** A notice and one press, and the old version comes back if an update fails.
 - **Download 0.7.7 beta** for Mac (Apple Silicon and Intel) and Linux from the [latest release](https://github.com/Parad0x-Labs/vool/releases/latest).
 
-| Repository | What it is |
-| --- | --- |
-| [**vool**](https://github.com/Parad0x-Labs/vool) | The app: agent, memory, tools and installers |
-| [**vool-skills**](https://github.com/Parad0x-Labs/vool-skills) | Skills written by the VOOL team: plain-text instructions that teach VOOL a task |
-| [**skill-codex-signer**](https://github.com/Parad0x-Labs/skill-codex-signer) | Checks and signs skill uploads for VOOL |
-| [**vool-plugins**](https://github.com/Parad0x-Labs/vool-plugins) | Reference plugins and their rules. Plugins are planned for VOOL 0.8, not released yet |
+<table>
+  <tr>
+    <td width="50%" valign="top"><a href="https://github.com/Parad0x-Labs/vool"><strong>vool</strong></a><br />The app: agent, memory, tools and installers for Mac and Linux.</td>
+    <td width="50%" valign="top"><a href="https://github.com/Parad0x-Labs/vool-skills"><strong>vool-skills</strong></a><br />Plain-text skills that teach VOOL a task, written by the VOOL team.</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="https://github.com/Parad0x-Labs/skill-codex-signer"><strong>skill-codex-signer</strong></a><br />Checks and signs skill uploads for VOOL, with the reasons for every refusal.</td>
+    <td valign="top"><a href="https://github.com/Parad0x-Labs/vool-plugins"><strong>vool-plugins</strong></a><br />Reference plugins and their rules. Plugins are planned for VOOL 0.8, not released yet.</td>
+  </tr>
+</table>
 
 ## Agent payments and privacy on Solana
 
-| Repository | What it is |
-| --- | --- |
-| [**dna-x402**](https://github.com/Parad0x-Labs/dna-x402) | Payment rails for AI agents: x402 micropayments on Solana with netting, transfer and stream settlement, and on-chain receipt anchoring |
-| [**Dark-Null-Protocol**](https://github.com/Parad0x-Labs/Dark-Null-Protocol) | Privacy settlement for Solana with a published Groth16 proof stack (circuit, verifying key, Rust verifier, manifest) |
-| [**openclaw-skills**](https://github.com/Parad0x-Labs/openclaw-skills) | Encrypted vault, ZK settlement archiving, x402 payment receipts, Agent Passport binding and Solana anchoring for agent runtimes |
+<table>
+  <tr>
+    <td width="33%" valign="top"><a href="https://github.com/Parad0x-Labs/dna-x402"><strong>dna-x402</strong></a><br />Payment rails for AI agents: x402 micropayments on Solana with netting, transfer and stream settlement, and on-chain receipt anchoring.</td>
+    <td width="33%" valign="top"><a href="https://github.com/Parad0x-Labs/Dark-Null-Protocol"><strong>Dark-Null-Protocol</strong></a><br />Privacy settlement for Solana with a published Groth16 proof stack: circuit, verifying key, Rust verifier and manifest.</td>
+    <td width="33%" valign="top"><a href="https://github.com/Parad0x-Labs/openclaw-skills"><strong>openclaw-skills</strong></a><br />Encrypted vault, ZK settlement archiving, x402 payment receipts, Agent Passport binding and Solana anchoring for agent runtimes.</td>
+  </tr>
+</table>
+
+## Built with
+
+<p align="center"><img src="https://skillicons.dev/icons?i=py,ts,rust,linux,apple&theme=dark" alt="Python, TypeScript, Rust, Linux, macOS" /></p>
 
 ---
 
